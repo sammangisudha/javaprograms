@@ -1,17 +1,15 @@
-package hello;
+package ternary;
 
-public class ClassExample {
+public class TernaryMaxNum {
 
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		int x=20;
 		int y=10;
-		if(x>y) {
-			System.out.println("x is max");
+		int a=0;
+		a=(x>y)?x:y;
+			System.out.println("max num is"+a);
+		
 		}
-		else {
-			System.out.println("y is max");
-		}
-
-	}
 
 }
